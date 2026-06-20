@@ -39,9 +39,7 @@ const App = () => {
  <a className="box" href="https://github.com/vyronix26" target="_blank" rel="noreferrer">
     <FaGithub style={{color : '#ffffff'}} /> GitHub
   </a>
-  <a className="box" href="
-https://www.linkedin.com/in/vyronix-technology-70449a378?utm_source=share_via&utm_content=profile&utm_medium=member_ios
-" target="_blank" rel="noreferrer">
+  <a className="box" href="linkedin.com/company/vyronix-technologies" target="_blank" rel="noreferrer">
     <FaLinkedin style={{color : '#0077b5'}} /> LinkedIn
   </a>
 

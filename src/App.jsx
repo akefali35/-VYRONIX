@@ -36,7 +36,7 @@ const App = () => {
    VYRONIX
   </h1>
 
- <a className="box" href="https://github.com/vyronix26" target="_blank" rel="noreferrer">
+ <a className="box" href="https://github.com/vyronix-26" target="_blank" rel="noreferrer">
     <FaGithub style={{color : '#ffffff'}} /> GitHub
   </a>
   <a className="box" href="https://www.linkedin.com/company/vyronix-technologies" target="_blank" rel="noreferrer">

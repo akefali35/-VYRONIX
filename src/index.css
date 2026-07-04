@@ -24,6 +24,8 @@ a {
 }
 .container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   width: 100%;
   padding: 20px 0;
@@ -41,16 +43,17 @@ a {
   display: flex; /* يجعل الأيقونة والنص في خط واحد */
   align-items: center;
   justify-content: FLEX-START; /* يجعل الأيقونة والنص في خط واحد */
-  padding-left: 30px;
+ 
   gap: 80px;
-  width: 250px;
-
+  width: 340px;
+   font-size: 24px;
+   padding: 18px 20px;
   max-width: 250px;
   text-align: center;
   background: transparent;
   border: 2px solid white;
   color: white;
-  padding: 15px;
+
   border-radius: 12px;
   text-decoration: none;
   font-size: 18px;

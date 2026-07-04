@@ -1,13 +1,13 @@
 import React from 'react';
 import ColorBends from './ColorBends';
 import profile from './assets/profile.jpeg';
-import { FaGithub, FaLinkedin, FaInstagram, FaTiktok, FaFacebook, FaWhatsapp } from 'react-icons/fa';
-import { useState } from 'react';
+import { FaGithub, FaLinkedin, FaInstagram, FaTiktok, FaFacebook} from 'react-icons/fa';
+
 const App = () => {
-  const [showWhatsApp, setShowWhatsApp] = useState(false);
+
   return (
     <div className='w-full min-h-screen relative bg-black flex justify-center items-center'>
-<div  style={{ width: '100%', minHeight: '100vh', position: 'relative' }}>
+<div  style={{ width: '100%', height: '100vh', position: 'relative' }}>
   <ColorBends
     rotation={91}
     speed={0.29}
@@ -56,6 +56,7 @@ const App = () => {
   <a className="box" href="https://www.tiktok.com/@vyronix26?_r=1&_t=ZS-97JeQ5iS2sv" target="_blank" rel="noreferrer">
     <FaTiktok style={{color : '#ffffff'}} /> TikTok
   </a>
+
 
 </div>
 
